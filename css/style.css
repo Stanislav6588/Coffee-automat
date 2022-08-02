@@ -1,0 +1,134 @@
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin: 50px;
+}
+
+li{
+	width: 300px;
+	height: 20px;
+	padding-left: 10px;
+	padding: 5px;
+	font-size: 24px;
+	margin: 3px;
+	color: grey;
+	cursor: pointer;
+	clip-path: polygon(0% 0%, 75% 0%, 85% 50%, 75% 100%, 0% 100%);
+	background-color: lightgoldenrodyellow;
+}
+
+li:hover{
+	background-color: #f8f8f8;
+}
+
+.active{
+	background-color: #410202;
+	color: white;
+}
+
+.cup{
+	position: relative;
+	width: 650px;
+	height: 600px;
+	background-image: url(../images/pic.png);
+	overflow: hidden;
+}
+
+.inner{
+	position: absolute;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+	height: 390px;
+	left: 0px;
+	right: 0;
+	bottom: 	158px;
+	z-index: -10;
+}
+
+.background{
+	background-color: #f5f0f0;
+}
+
+.coffee{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #410202;
+	color: white;
+}
+
+.water{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #dcfcfd;
+	color: #410202;
+}
+
+.milk{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fcfbfa;
+	color: #410202;
+}
+
+.milkfoam{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ebece6;
+	color: #410202;
+}
+
+.doublecoffee{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2b0101;
+	color: white;
+}
+
+@media (max-width:1100px) {
+	.container{
+		height: fit-content;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin: 50px;
+	}
+	.listUl{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width:650px) {
+	.container{
+		height: fit-content;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin: 50px;
+	}
+	.listUl{
+		display: flex;
+		flex-direction: column;
+	}
+	li{
+		width: 300px;
+		height: 10px;
+		padding-left: 10px;
+		padding: 5px;
+		font-size: 14px;
+		color: grey;
+		cursor: pointer;
+		clip-path: polygon(0% 0%, 75% 0%, 85% 50%, 75% 100%, 0% 100%);
+		background-color: lightgoldenrodyellow;
+	}
+}

@@ -1,0 +1,189 @@
+[
+    {
+        "title_ua": "Еспресо",
+        "title_en": "Espresso",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "title_ua": "Допіо",
+        "title_en": "Doppio",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "title_ua": "Тріпло",
+        "title_en": "Tripplo",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 3
+            }
+        ]
+    },
+    {
+        "title_ua": "Ристрето",
+        "title_en": "Ritretto",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "doublecoffee",
+                "volume": 0.5
+            }
+        ]
+    },
+    {
+        "title_ua": "Лунго",
+        "title_en": "Lungo",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "title_ua": "Американо",
+        "title_en": "Americano",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 1
+            },
+            {
+                "name": "Вода",
+                "class_name": "water",
+                "volume": 3
+            }
+        ]
+    },
+    {
+        "title_ua": "Флет Вайт",
+        "title_en": "Flat White",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 1
+            },
+            {
+                "name": "Молоко",
+                "class_name": "milk",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "title_ua": "Капучіно",
+        "title_en": "Cappuchino",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 1
+            },
+            {
+                "name": "Молоко",
+                "class_name": "milk",
+                "volume": 1
+            },
+            {
+                "name": "Молочна піна",
+                "class_name": "milkfoam",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "title_ua": "Макіато",
+        "title_en": "Macchiato",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 2
+            },
+            {
+                "name": "Молочна піна",
+                "class_name": "milkfoam",
+                "volume": 1   
+            }
+        ]
+    },
+    {
+        "title_ua": "Лате",
+        "title_en": "Latte",
+        "recipe": [
+            {
+                "name": "Еспресо",
+                "class_name": "coffee",
+                "volume": 1
+            },
+            {
+                "name": "Молоко",
+                "class_name": "milk",
+                "volume": 2
+            },
+            {
+                "name": "Молочна піна",
+                "class_name": "milkfoam",
+                "volume": 1   
+            }
+        ]
+    },
+    {
+        "title_ua": "Кон панна"
+    },
+    {
+        "title_ua": "Бреве"
+    },
+    {
+        "title_ua": "Кава по Віденськи"
+    },
+    {
+        "title_ua": " Макіато"
+    },
+    {
+        "title_ua": "Фредо"
+    },
+    {
+        "title_ua": "Айріш"
+    },
+    {
+        "title_ua": "Корретто"
+    },
+    {
+        "title_ua": "Раф кава"
+    },
+    {
+        "title_ua": "Романо"
+    },
+    {
+        "title_ua": "Медовий раф"
+    },
+    {
+        "title_ua": "Глясе"
+    },
+    {
+        "title_ua": "Моко"
+    },
+    {
+        "title_ua": "Марочіно"
+    },
+    {
+        "title_ua": "Бічерин"
+    }
+]
